@@ -71,6 +71,9 @@ supplies release-specific introduction/removal claims.
 
 ## Method and counting boundaries
 
+The reusable procedure is maintained in [Claude Code reverse-analysis method](claude-code-reverse-method.md).
+The steps and counts below record this version's analysis scope.
+
 1. Confirm the Homebrew cask, resolve the executable, and record its version, size, hash, and
    embedded build metadata.
 2. Extract the NUL-terminated source regions that start with the executable's `// @bun @bytecode`

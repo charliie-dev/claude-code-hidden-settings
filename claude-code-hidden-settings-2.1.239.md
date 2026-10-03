@@ -583,6 +583,9 @@ checked.” It does not mean supported, stable, safe, or intentionally user-conf
 
 ### Method
 
+The reusable procedure is maintained in [Claude Code reverse-analysis method](claude-code-reverse-method.md).
+The steps below record this version's analysis scope.
+
 1. Locate the installed executable and pin its version and SHA-256.
 2. Extract the generated environment export map (`NAME:()=>symbol`) and its schema constructor
    (`str`, `bool`, `triBool`, `int`, or `enum`). Merely finding a string in the binary is not enough.
